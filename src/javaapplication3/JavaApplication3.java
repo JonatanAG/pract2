@@ -18,7 +18,7 @@ public class JavaApplication3 {
        //String [] vector = {"Ana","Paco","Maria"};
        
        Histogram <Integer> histogram = CalculaHisto.computeHistogram(vector);
-       for (Object key : histogram.keyset()){
+       for (Object key : histogram.keySet()){
         System.out.println(key + "-->" + histogram.get(key));
     }
     }
