@@ -11,6 +11,7 @@ import java.util.HashMap;
  * @author Jonatan AG
  */
 public class Histogram <T> {
+    
     private final T [] elVector;
     
     public Histogram(T[] elVector){
