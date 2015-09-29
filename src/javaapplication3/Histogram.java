@@ -8,7 +8,7 @@ import java.util.HashMap;
 
 /**
  *
- * @author usuario
+ * @author Jonatan AG
  */
 public class Histogram <T> {
     private final T [] elVector;
